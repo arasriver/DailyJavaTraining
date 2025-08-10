@@ -1,10 +1,11 @@
 package DailyJavaTraining;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        PrintManager pm1 = PrintManager.getInstance();
-        pm1.printDocument("test");
-
+        Logger l = Logger.getInstance();
+        l.write("hio");
 
     }
 }
